@@ -10,25 +10,36 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
+
 <body>
+
+  <header>
+    <ul>
+      <li>Home</li>
+      <li>Projects</li>
+      <li>Future</li>
+      <li>About</li>
+      <li>Contacts</li>
+      <li>Random</li>
+    </ul>
+  </header>
   <!-- Add your site or application content here -->
   <div class="page-container">
-    <div class="header">
-      <img src="./udacity-icon.png" width="65px" height="65px" alt="udacity-logo"/>
+    <section class="top-container">
+      <img src="./udacity-icon.png" alt="udacity-logo"/>
       <div class="text-container">
         <h1> HWA LEE </h1>
         <p> FRONT-END NINJA </p>
       </div>
-    </div>
+    </section>
     <div class="image-container">
-      <img src="./meta-image.jpg" height="100%" width="100%" alt="meta-image">
-      <img>
+      <img src="./meta-image.jpg" alt="meta-image">
     </div>
-    <div class="main">
+    <section class="main">
       <h1>Featured Work </h1>
       <div class="main-images">
-        <div onclick="window.location='http://github.com/udacity/Appify/';">
-          <img src="./Appify.png">
+        <div class="img-text-container" onclick="window.location='http://github.com/udacity/Appify/';">
+          <img src="./Appify.png" alt="Appify-Project">
           <span>
             APPIFY
           </span>
@@ -37,8 +48,8 @@
           </a>
         </div>
 
-        <div onclick="window.location='http://github.com/udacity/sunflower/';">
-          <img src="./sunflower.jpg">
+        <div class="img-text-container" onclick="window.location='http://github.com/udacity/sunflower/';">
+          <img src="./sunflower.jpg" alt="Sunflower-Project">
           <span>
             SUNFLOWER
           </span>
@@ -47,8 +58,8 @@
           </a>
         </div>
 
-        <div onclick="window.location='http://github.com/udacity/bokeh/';">
-          <img src="./bokeh.jpg">
+        <div class="img-text-container" onclick="window.location='http://kovalyovi.github.io/MemoryGame/';">
+          <img src="./bokeh.jpg" alt="Bokeh-project">
           <span>
             BOKEH
           </span>
@@ -58,9 +69,19 @@
         </div>
 
       </div>
-    </div>
+    </section>
   </div>
 
+  <footer>
+    <div class="footer">
+      <p>
+        This page is made by me. All rights reserved <br/>
+        2019 ® All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
 </body>
+
 
 </html>
